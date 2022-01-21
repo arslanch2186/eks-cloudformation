@@ -4,10 +4,10 @@ set -e
 
 # EDIT THIS:
 #------------------------------------------------------------------------------#
-NUM_WORKER_NODES=3
+NUM_WORKER_NODES=2
 WORKER_NODES_INSTANCE_TYPE=t2.micro
-STACK_NAME=test-cluster
-KEY_PAIR_NAME=qs-us-east-1
+STACK_NAME=Assignment-cluster
+KEY_PAIR_NAME=qs-ap-south-1
 #------------------------------------------------------------------------------#
 
 # Output colours
