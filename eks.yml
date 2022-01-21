@@ -6,7 +6,7 @@ Parameters:
   NumWorkerNodes:
     Type: Number
     Description: Number of worker nodes to create
-    Default: 3
+    Default: 2
 
   WorkerNodesInstanceType:
     Type: String
@@ -28,13 +28,13 @@ Mappings:
   # IDs of the "EKS-optimised AMIs" for the worker nodes:
   # https://docs.aws.amazon.com/eks/latest/userguide/eks-optimized-ami.html
   EksAmiIds:
-    us-east-1:
+    ap-south-1:
       Standard: ami-0a0b913ef3249b655
-    us-east-2:
+    ap-south-1:
       Standard: ami-0958a76db2d150238
-    us-west-2:
+    ap-south-1:
       Standard: ami-0f54a2f7d2e9c88b3
-    eu-west-1:
+    ap-south-1:
       Standard: ami-00c3b2d35bddd4f5c
 
 Resources:
